@@ -12,6 +12,14 @@ export async function saveSubscription (
             Collection: users
             Index: user_by_stripe_customer_id
             terms: data.stripe_customer_id
+
+        [X]
+
+        Salvar os dados da subscription no faunaDB.
+        - Entao eu vou criar uma nova collection no Fauna, para guardar
+        as subscriptions do user.
+            Collection name: subscriptions
+
     */
 
 } 
